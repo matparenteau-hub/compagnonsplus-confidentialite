@@ -31,6 +31,7 @@ h2, h3 {
 }
 a {
     color: #267D65;
+    overflow-wrap: anywhere;
 }
 .button {
     display: inline-block;
@@ -39,6 +40,7 @@ a {
     padding: 12px 22px;
     border-radius: 8px;
     text-decoration: none;
+    margin: 5px;
 }
 nav {
     text-align: center;
@@ -54,6 +56,23 @@ hr {
     border: 0;
     border-top: 1px solid #ddd;
     margin: 40px 0;
+}
+.important {
+    background: #eaf4f1;
+    border-left: 4px solid #267D65;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+.date {
+    color: #777;
+    font-size: 14px;
+}
+@media (max-width: 600px) {
+    main {
+        margin: 15px;
+        padding: 20px;
+    }
 }
 </style>
 </head>
@@ -77,6 +96,8 @@ hr {
 
 <h2>Bienvenue au centre d'assistance</h2>
 
+<p class="date">Dernière mise à jour : 25 novembre 2026</p>
+
 <p>Compagnons+ est une application gratuite conçue pour faciliter
 la gestion quotidienne de la santé et du bien-être de vos animaux.</p>
 
@@ -89,44 +110,198 @@ d'amélioration? N'hésitez pas à nous contacter.</p>
 Contacter l'assistance
 </a>
 
-<p>Courriel : mattstore2026@outlook.com</p>
+<p>Courriel :
+<a href="mailto:mattstore2026@outlook.com">
+mattstore2026@outlook.com
+</a>
+</p>
+
+<p>Afin de faciliter le traitement de votre demande, veuillez
+indiquer le modèle de votre appareil, la version de l'application
+et une description du problème rencontré.</p>
+
+<p>Ne transmettez jamais votre mot de passe par courriel.</p>
 
 <h2>Questions fréquentes</h2>
 
 <h3>L'application est-elle gratuite?</h3>
+
 <p>Oui. Toutes les fonctionnalités sont gratuites, sans abonnement.
 L'application est financée par la publicité.</p>
 
 <h3>Puis-je ajouter plusieurs animaux?</h3>
-<p>Oui. Vous pouvez gérer plusieurs compagnons sans frais supplémentaires.</p>
+
+<p>Oui. Vous pouvez gérer plusieurs compagnons sans frais
+supplémentaires et organiser leurs dossiers individuellement.</p>
+
+<h3>Dois-je créer un compte?</h3>
+
+<p>Non. La création d'un compte est facultative.
+Les fonctionnalités locales de Compagnons+ peuvent être
+utilisées sans compte utilisateur.</p>
+
+<p>Un compte permet toutefois d'accéder aux fonctionnalités
+de sauvegarde et de récupération des données en ligne.</p>
 
 <h3>Comment changer la langue?</h3>
-<p>Ouvrez les réglages de l'application et sélectionnez le français
-ou l'anglais.</p>
+
+<p>Ouvrez les réglages de l'application et sélectionnez
+le français ou l'anglais.</p>
 
 <h3>Pourquoi mes notifications ne fonctionnent-elles pas?</h3>
+
 <p>Vérifiez que les notifications sont autorisées dans les réglages
-de votre téléphone et que vos rappels sont activés dans l'application.</p>
+de votre téléphone et que vos rappels sont activés dans
+l'application.</p>
+
+<p>Vérifiez également que les dates et les heures de vos
+rappels sont correctement configurées.</p>
 
 <h3>Puis-je sauvegarder mes données?</h3>
-<p>Compagnons+ propose des fonctionnalités de sauvegarde et de
-restauration accessibles dans les réglages.</p>
+
+<p>Oui. Compagnons+ propose des fonctionnalités de sauvegarde
+et de restauration accessibles dans l'application.</p>
+
+<p>Vous pouvez effectuer des sauvegardes locales et, si vous
+disposez d'un compte, utiliser les fonctionnalités de
+sauvegarde en ligne.</p>
+
+<div class="important">
+
+<strong>Conseil :</strong>
+
+<p>Effectuez régulièrement une sauvegarde de vos données,
+particulièrement avant de changer de téléphone, de
+réinitialiser votre appareil ou de désinstaller l'application.</p>
+
+</div>
+
+<h3>Puis-je récupérer mes données sur un autre appareil?</h3>
+
+<p>Si vous avez effectué une sauvegarde en ligne, connectez-vous
+à votre compte sur votre nouvel appareil et utilisez les
+fonctionnalités de récupération disponibles.</p>
+
+<p>Seules les données effectivement sauvegardées en ligne
+pourront être récupérées par cette méthode.</p>
+
+<p>Vous pouvez également utiliser une sauvegarde locale
+précédemment exportée, si vous en avez conservé une copie.</p>
 
 <h3>Comment partager un dossier médical?</h3>
+
 <p>Utilisez la fonctionnalité d'exportation PDF disponible dans
-l'application pour partager les informations de votre compagnon.</p>
+l'application pour partager les informations de votre compagnon
+avec votre vétérinaire ou une personne de votre choix.</p>
 
-<h3>Comment supprimer mon compte ou mes données?</h3>
-<p>Communiquez avec notre service d'assistance pour obtenir de l'aide
-concernant la suppression de votre compte ou de vos données.</p>
+<h3>Je n'arrive pas à me connecter à mon compte. Que faire?</h3>
 
-<h3>Confidentialité</h3>
-<p>
-<a href="./index.html">Consulter notre politique de confidentialité</a>
-</p>
+<p>Vérifiez que votre adresse courriel et votre mot de passe
+sont correctement saisis.</p>
 
-<p>Compagnons+ est un outil d'organisation et ne remplace pas
-les conseils d'un vétérinaire.</p>
+<p>Assurez-vous également que votre compte est confirmé
+et que votre connexion Internet fonctionne.</p>
+
+<p>Si le problème persiste, communiquez avec notre service
+d'assistance.</p>
+
+<h3>Comment supprimer mon compte?</h3>
+
+<p>Vous pouvez supprimer définitivement votre compte
+directement depuis Compagnons+.</p>
+
+<div class="important">
+
+<strong>Procédure de suppression :</strong>
+
+<ol>
+    <li>Ouvrez Compagnons+.</li>
+    <li>Connectez-vous au compte que vous souhaitez supprimer.</li>
+    <li>Accédez aux réglages de l'application.</li>
+    <li>Sélectionnez « Supprimer mon compte ».</li>
+    <li>Lisez les avertissements et confirmez la suppression définitive.</li>
+</ol>
+
+</div>
+
+<p>Une suppression réussie entraîne :</p>
+
+<ul>
+    <li>La suppression définitive de votre compte utilisateur.</li>
+    <li>La suppression de vos profils sauvegardés en ligne.</li>
+    <li>La suppression de vos dossiers médicaux sauvegardés en ligne.</li>
+    <li>La suppression de vos photos et documents conservés dans
+    le stockage en ligne de Compagnons+.</li>
+    <li>La déconnexion de votre compte dans l'application.</li>
+</ul>
+
+<div class="important">
+
+<strong>Attention : cette opération est irréversible.</strong>
+
+<p>La suppression de votre compte ne supprime pas automatiquement
+les informations enregistrées localement sur votre appareil.</p>
+
+<p>Vous pouvez continuer à utiliser Compagnons+ sans compte
+et conserver vos dossiers locaux.</p>
+
+<p>Les sauvegardes en ligne supprimées ne pourront plus être
+récupérées par l'intermédiaire de votre compte.</p>
+
+</div>
+
+<h3>Comment supprimer mes données locales?</h3>
+
+<p>Vous pouvez supprimer les informations enregistrées
+localement à l'aide des fonctionnalités de gestion
+disponibles dans l'application.</p>
+
+<p>La suppression du compte en ligne ne supprime pas
+automatiquement les données locales, les fichiers exportés
+ou les copies conservées par des services externes.</p>
+
+<h3>Que faire si la suppression de mon compte échoue?</h3>
+
+<p>Vérifiez votre connexion Internet et essayez de nouveau
+si votre compte est toujours accessible.</p>
+
+<p>Si la suppression ne peut pas être confirmée ou si vous
+ne pouvez plus accéder à votre compte, communiquez avec
+notre service d'assistance afin que nous puissions
+examiner la situation.</p>
+
+<h3>Comment gérer mes choix publicitaires?</h3>
+
+<p>Compagnons+ est financée par la publicité afin de demeurer
+gratuite et accessible.</p>
+
+<p>Lorsque cette fonctionnalité est disponible, vous pouvez
+gérer vos choix publicitaires en accédant à la section
+« Confidentialité publicitaire » dans les réglages
+de l'application.</p>
+
+<p>Les options disponibles peuvent varier selon votre région,
+votre appareil et les exigences légales applicables.</p>
+
+<h3>Confidentialité et renseignements personnels</h3>
+
+<p>Pour en savoir davantage sur les données enregistrées,
+les sauvegardes en ligne, les services publicitaires,
+la conservation et la suppression des renseignements,
+consultez notre politique de confidentialité.</p>
+
+<a class="button" href="./index.html">
+Politique de confidentialité
+</a>
+
+<h3>Avertissement vétérinaire</h3>
+
+<p>Compagnons+ est un outil d'organisation et de suivi.
+L'application ne fournit pas de diagnostic médical
+et ne remplace pas les conseils d'un vétérinaire.</p>
+
+<p>En cas de problème de santé ou d'urgence concernant
+votre animal, communiquez avec un professionnel vétérinaire.</p>
 
 </section>
 
@@ -135,6 +310,8 @@ les conseils d'un vétérinaire.</p>
 <section id="en" lang="en">
 
 <h2>Welcome to our Support Centre</h2>
+
+<p class="date">Last updated: November 25, 2026</p>
 
 <p>Compagnons+ is a free application designed to help you manage
 your pets' health and everyday well-being.</p>
@@ -148,50 +325,199 @@ Please feel free to contact us.</p>
 Contact Support
 </a>
 
-<p>Email: mattstore2026@outlook.com</p>
+<p>Email:
+<a href="mailto:mattstore2026@outlook.com">
+mattstore2026@outlook.com
+</a>
+</p>
+
+<p>To help us process your request, please include your
+device model, application version and a description
+of the issue you are experiencing.</p>
+
+<p>Never send your password by email.</p>
 
 <h2>Frequently Asked Questions</h2>
 
 <h3>Is the application free?</h3>
+
 <p>Yes. All features are free, with no subscription.
 The application is supported by advertising.</p>
 
 <h3>Can I add multiple pets?</h3>
-<p>Yes. You can manage multiple pets at no additional cost.</p>
+
+<p>Yes. You can manage multiple pets at no additional
+cost and organize their records individually.</p>
+
+<h3>Do I need to create an account?</h3>
+
+<p>No. Creating an account is optional.
+The local features of Compagnons+ can be used
+without a user account.</p>
+
+<p>However, an account provides access to online
+backup and data recovery features.</p>
 
 <h3>How do I change the language?</h3>
-<p>Open the application settings and select English or French.</p>
+
+<p>Open the application settings and select English
+or French.</p>
 
 <h3>Why are my notifications not working?</h3>
+
 <p>Make sure notifications are allowed in your phone settings
 and reminders are enabled within the application.</p>
 
+<p>Also check that your reminder dates and times
+are correctly configured.</p>
+
 <h3>Can I back up my data?</h3>
-<p>Compagnons+ provides backup and restore features
-available in the application settings.</p>
+
+<p>Yes. Compagnons+ provides backup and restore features
+available within the application.</p>
+
+<p>You can create local backups and, if you have
+an account, use the online backup features.</p>
+
+<div class="important">
+
+<strong>Recommendation:</strong>
+
+<p>Back up your data regularly, especially before
+changing phones, resetting your device or
+uninstalling the application.</p>
+
+</div>
+
+<h3>Can I recover my data on another device?</h3>
+
+<p>If you have created an online backup, sign in to your
+account on your new device and use the available
+data recovery features.</p>
+
+<p>Only information that has actually been backed up
+online can be recovered using this method.</p>
+
+<p>You can also use a previously exported local backup
+if you have retained a copy.</p>
 
 <h3>How can I share my pet's medical records?</h3>
+
 <p>Use the PDF export feature available in the application
-to share your pet's information.</p>
+to share your pet's information with your veterinarian
+or someone of your choice.</p>
 
-<h3>How can I delete my account or personal data?</h3>
-<p>Contact our support team for assistance with deleting
-your account or personal data.</p>
+<h3>I cannot sign in to my account. What should I do?</h3>
 
-<h3>Privacy</h3>
-<p>
-<a href="./index.html">Read our Privacy Policy</a>
-</p>
+<p>Make sure your email address and password
+have been entered correctly.</p>
 
-<p>Compagnons+ is an organizational tool and does not replace
-professional veterinary advice.</p>
+<p>Also ensure that your account has been confirmed
+and that your Internet connection is working.</p>
+
+<p>If the issue persists, please contact our support team.</p>
+
+<h3>How can I delete my account?</h3>
+
+<p>You can permanently delete your account directly
+within Compagnons+.</p>
+
+<div class="important">
+
+<strong>Account deletion procedure:</strong>
+
+<ol>
+    <li>Open Compagnons+.</li>
+    <li>Sign in to the account you wish to delete.</li>
+    <li>Open the application settings.</li>
+    <li>Select "Delete my account".</li>
+    <li>Read the warnings and confirm permanent deletion.</li>
+</ol>
+
+</div>
+
+<p>Successful account deletion includes:</p>
+
+<ul>
+    <li>Permanent deletion of your user account.</li>
+    <li>Deletion of your pet profiles backed up online.</li>
+    <li>Deletion of your medical records backed up online.</li>
+    <li>Deletion of your photographs and documents stored
+    in Compagnons+ online storage.</li>
+    <li>Sign-out from your application account.</li>
+</ul>
+
+<div class="important">
+
+<strong>Warning: this operation is irreversible.</strong>
+
+<p>Deleting your account does not automatically delete
+information stored locally on your device.</p>
+
+<p>You can continue using Compagnons+ without an account
+and retain your local records.</p>
+
+<p>Deleted online backups can no longer be recovered
+through your account.</p>
+
+</div>
+
+<h3>How can I delete my local data?</h3>
+
+<p>You can delete locally stored information using the
+available data management features within the application.</p>
+
+<p>Deleting your online account does not automatically
+delete local information, exported files or copies
+retained by external services.</p>
+
+<h3>What should I do if account deletion fails?</h3>
+
+<p>Check your Internet connection and try again
+if your account is still accessible.</p>
+
+<p>If deletion cannot be confirmed or you can no longer
+access your account, please contact our support team
+so we can investigate the issue.</p>
+
+<h3>How can I manage my advertising privacy choices?</h3>
+
+<p>Compagnons+ is supported by advertising to remain
+free and accessible.</p>
+
+<p>When this feature is available, you can manage your
+advertising privacy choices through the Advertising
+Privacy section of the application settings.</p>
+
+<p>Available options may vary depending on your region,
+device and applicable legal requirements.</p>
+
+<h3>Privacy and personal information</h3>
+
+<p>To learn more about stored information, online backups,
+advertising services, data retention and deletion,
+please read our Privacy Policy.</p>
+
+<a class="button" href="./index.html">
+Privacy Policy
+</a>
+
+<h3>Veterinary disclaimer</h3>
+
+<p>Compagnons+ is an organizational and tracking tool.
+The application does not provide medical diagnoses
+and does not replace professional veterinary advice.</p>
+
+<p>If your pet experiences a health problem or emergency,
+please contact a veterinary professional.</p>
 
 </section>
 
 </main>
 
 <footer>
-    © 2026 Compagnons+ — Tous droits réservés / All rights reserved.
+    <p>© 2026 Compagnons+ — Tous droits réservés / All rights reserved.</p>
+    <p>🐾</p>
 </footer>
 
 </body>
